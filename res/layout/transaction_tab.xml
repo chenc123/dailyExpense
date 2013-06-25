@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp" >
+
+        <ImageButton
+            android:id="@+id/previousDayButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/navigation_previous_item" />
+
+        <TextView
+            android:id="@+id/dateNow"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="0.60"
+            android:text="TextView" />
+
+        <ImageButton
+            android:id="@+id/nextDayButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/navigation_next_item" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+		android:background="#D8D8D8" >
+
+        <ImageButton
+            android:id="@+id/addNewExpense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/content_new" />
+
+        <TextView
+            android:id="@+id/addExpenseView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="0.45"
+            android:text="@string/add_new_expense" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/transacView"
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:layout_weight="0.14" >
+    </ListView>
+
+</LinearLayout>
