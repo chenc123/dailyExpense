@@ -23,8 +23,6 @@ I use both emulator and device to test my application. The testing procedures as
 7).	Delete a transaction you added
 8).	Repeat step (3) to step (7)  
 6.	Screenshots
-   
-  
 7.	Known bugs, limitations, and problems.
 So far, there are some problems needed to solve. First, there is no default category for user to choose that will make application terminated when adding a transaction. Second, alert dialogue should be implemented in order prevent some error situation. For example, when user click the delete button, there should be a dialogue pop up that ask user whether they really want to delete it. Sometime user may click the button by mistake. Further, screen can’t refresh instantly after deleting a transaction that should be fixed.
 8.	Set of features to be implemented or next steps
